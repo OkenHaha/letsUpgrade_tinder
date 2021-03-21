@@ -19,7 +19,7 @@ def login(emailOfUser, passwordOfUser):
 
 	return {"uid":uid, "message":message}
 
-login("email", "password")
+login("name@domain.com", "123456")
 
 #----------- E N D   L O G I N ------------------
 
@@ -38,7 +38,7 @@ def signUP(emailOfUser, passwordOfUser):
 
 	return {"uid":uid, "message":message}
 
-signUp("email", "password")
+signUp("oken@oken.com", "oken1234)
 
 
 #---------E N D   S I G N U P------------------------
@@ -61,7 +61,7 @@ def updateUserData(dit):
 
 	dit = {}
 	dit['name'] = "Oken"
-	 dit['email'] = "Email"
+	 dit['email'] = "sdfgfg@dfsgf.com"
 	dit['number'] = "234234"
 	dit['image'] = "imageURL"
 	dit['desp'] = "single"
