@@ -1,4 +1,3 @@
-#Pyrebase https://www.youtube.com/watch?v=ccG5nythCAs
 import firebase_admin
 from firebase_admin import auth, firestore, storage, credentials
 from flask import abort, jsonify, request, redirect
@@ -8,7 +7,7 @@ import requests
 #--------E N D  I M P O R T --------
 app = flask.Flask(__name__)
 
-cred = credentials.Certificate("firebase or Certificate.json")
+cred = credentials.Certificate("tinderoken-firebase-adminsdk-dssce-43dc1f1794.json")
 firebase_app firebase_admin.initialize_app(cred)
 store = firestore.client()
 
